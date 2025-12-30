@@ -36,7 +36,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY MazFrienoconvert BEGIN END
+	ACTION_DEFINE_ARRAY MazFrienoconvert BEGIN install END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY MazFriereload BEGIN setup END
@@ -67,7 +67,7 @@ LANGUAGE ~Deutsch (Uebersetzung vom Kerzenburgforum)~
 
 LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~
-         ~mazzy/translations/schinese/setup.tra~
+         ~mazzy/translations/schinese/install.tra~
 
 LANGUAGE ~Russian (translation by Evilkiss & Arcanecoast.ru)~
          ~russian~
